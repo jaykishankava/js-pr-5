@@ -1,0 +1,15 @@
+<script type="text/javascript">
+
+    //  5. insert element in array position wise.
+
+    var arr = [56, 27, 78, 89, 34, 67];
+    var pos = 4;
+    var value = 7;
+    for (var i = arr.length - 1; i >= pos; i--) {
+        arr[i + 1] = arr[i];
+    }
+    arr[pos] = value;
+    console.log(arr);
+
+
+</script>
